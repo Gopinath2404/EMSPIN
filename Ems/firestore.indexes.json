@@ -1,0 +1,31 @@
+{
+    "indexes": [
+      {
+        "collectionGroup": "attendance",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "uid", "order": "ASCENDING" },
+          { "fieldPath": "date", "order": "ASCENDING" }
+        ]
+      },
+      {
+        "collectionGroup": "leaves",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "uid", "order": "ASCENDING" },
+          { "fieldPath": "status", "order": "ASCENDING" },
+          { "fieldPath": "startDate", "order": "ASCENDING" }
+        ]
+      },
+      {
+        "collectionGroup": "employees",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "department", "order": "ASCENDING" },
+          { "fieldPath": "name", "order": "ASCENDING" }
+        ]
+      }
+    ],
+    "fieldOverrides": []
+  }
+  
